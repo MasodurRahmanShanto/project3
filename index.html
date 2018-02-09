@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                         <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+                        <title>MRS Textile </title>
+						
+                            <style>
+							            
+                                      
+							            article{
+                                            color: white;
+                                            background: url("cover.JPG");
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            padding: 100px;
+                                            margin: 0 auto;
+                                        }
+										li{
+	                                       display: inline;
+	                                       padding: 0px 20px 0px 20px;
+	                                       text-align: left;
+										   color;white;
+                                        }
+										
+                                       h1{
+	                                       font-family: impact;
+	                                       text-align: center;
+	                                       font-size: 100px;
+	                                       padding: 160px 0px 50px 0px;
+                                        }
+										
+                                        h2{
+	                                        font-family: zilla slab;
+	                                        font-size: 35px;
+                                        
+										}
+										
+										 body {
+                                           
+                                            background-size: cover;
+                                            margin: 0 auto;
+                                            width: 600px;
+                                            background-color: rgb(255, 255, 255);
+                                        }
+										
+										p{
+                                            background: rgba(0, 0, 0, 0.8);
+                                            color: rgba(255, 255, 255, 1);
+                                            padding: 10px;
+                                            text-align: justify;
+                                            line-height: 20px;
+                                            position: absolute;
+                                            margin: 0px;
+                                            bottom: 0;
+											}
+											
+									    div{
+                                            height: 250px;
+                                            margin: 40px 0 0 0;
+                                            position: relative;
+                                            border-radius: 15px;
+                                            transition: height .5s;
+                                           -webkit-transition: width 2s;
+                                           -moz-transition: width 2s;
+        
+      
+                                        }
+										 
+                                        
+      
+                                       .first{
+                                             background: url("shirt.jpg");
+                                        }
+                                       .second{
+                                             background: url("pent.jpg");
+                                        }
+                                       .third{
+                                             background: url("trouser.jpg");
+                                        }
+										.fourth{
+                                             background: url("t-shirt.png");
+                                        }
+      
+                                        .price {
+                                              float: right;
+                                        }
+										.dsc p{
+                                             height: 150px;
+                                             color: red;
+                                             transition: all 1s ease-in-out;
+                                             -webkit-transition: all 1s ease-in-out;
+                                             -moz-transition: all 1s ease-in-out;
+                                             -o-transition: all 1s ease-in-out;
+                                        }
+      
+                                        small {
+                                              opacity: 1;
+                                        }
+										 /* Media Queries */
+      
+                                        @media (max-width: 500px){
+        
+                                        div {
+                                               margin: 40px 0 0 0;
+                                               font-size: 12px;
+        
+                                        }
+										
+                                        h1 {
+                                                font-size: 30px;
+                                                margin-top: 30px;
+                                                line-height: 20px;
+                                                font-family: Open Sans
+                                                text-align: center;
+          
+                                        } 
+										
+                                        h2 {
+                                                font-size: 15px;
+                                                text-align: center;
+                                                margin-top: 20px;
+										}
+      
+       
+         
+        
+         
+      }
+	                        </style>
+        </head>
+<body>
+  
+      <article>
+           <header>
+		   
+                <ul>
+                         <li> <a href="#"> Home </a> </li>
+                         <li> <a href="#"> About </a> </li>
+                         <li> <a href="#"> Blog </a> </li>
+                         <li> <a href="#"> Contact </a> </li>
+                </ul>
+	
+           </header>
+
+           <h1> MRS Textile </h1>
+           <h2> Where you can buy export quality </h2>
+		   
+     </article>
+  
+    <div class="first">
+	          
+               <p class="dsc"> shirt <span class="price"> $10 </span> <br />
+                <small> We offer you the export quality shirt.Where you can find all sorts of shirt likeformal,casual,polo-shirt,henley-shirt etc. </small></p>
+	 
+   <div class="second">
+               <p class="dsc"> pent <span class="price"> $11 </span> <br />
+               <small> We offer you the export quality pent like formal,denim,jens etc 
+			   </small></p>
+	</div>		   
+			   
+    <div class="third">
+               <p class="dsc"> sports wear <span class="price"> $8 </span> <br />
+               <small> We offer you the export quality sports wear.Where you can find all sorts of sports wear           </small></p>
+    </div>
+	
+	
+	<div class="fourth">
+	           <p class="dsc"> T-shirt <span class="price"> $5 </span> <br />
+               <small> We offer you the export quality T-shirt.Where you can find attractive and verities design's T-shirt         </small></p>
+	</div>
+	
+	 <script>
+	              $("button").click(function(){
+                  $("this").toggleClass("first");
+                   });
+     </script>
+	 </body>
+</html>	 
+	 
+ 
